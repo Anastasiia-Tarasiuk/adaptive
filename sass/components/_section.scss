@@ -1,0 +1,25 @@
+/* Стилизация секции */
+.section {
+    padding: 60px 0;
+
+    @media screen and (min-width: 769px) {
+        padding: 94px 0;
+    }
+    
+    &--paddingbottom {
+        padding-bottom: 0;
+    }
+}
+
+// .section__title {
+//     color: var(--color-black);
+
+//     font-family: Roboto;
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+
+//     margin-bottom: 50px;
+// }
