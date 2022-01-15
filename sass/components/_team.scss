@@ -1,5 +1,5 @@
-/* Преимущества */
-.benefits {
+/* Наша команда */
+.team {
     margin-bottom: calc(-1 * var(--margin-gap));
 
     @media screen and (min-width: 481px) {
@@ -8,24 +8,16 @@
 
         margin-right: calc(-1 * var(--margin-gap));
     }
+}
+        
+.team__item {
+    background-color: var(--color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     
-}
+    border-radius: 0px 0px 4px 4px;
 
-.benefits__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color:var(--background-color-grey);
-    width: 100%;
-    height: 120px;
     margin-bottom: var(--margin-gap);
-    border-radius: 4px;
-}
-   
-.benefits__item {    
-    margin-bottom: var(--margin-gap);
-
+      
     @media screen and (min-width: 481px) {
         flex-basis: calc((100% - 2 * var(--margin-gap)) / 2);
         &:nth-child(odd) {
@@ -35,26 +27,13 @@
             margin-bottom: 0;
         }
     }
-
+    
     @media screen and (min-width: 769px) {
-        flex-basis: calc((100% - 4 * var(--margin-gap)) / 4);
+        flex-basis: calc((100% - 4 * var(--margin-gap)) / 4); 
         margin-bottom: 0;
         &:not(:last-child) {
             margin-right: var(--margin-gap);
-        } 
+        }       
     }
-}  
-
-.benefits__title {
-    color: var(--color-black);
-
-    @extend %uppercase-font;
-
-    margin-bottom: 10px;
-}
-
-.benefits__text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    
 }
