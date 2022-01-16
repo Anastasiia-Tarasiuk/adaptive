@@ -2,20 +2,23 @@
 .social-media {
     display: flex;
     justify-content: center;
+
 }
 
 .social-media__item {
     width: 44px;
     height: 44px;
-
-    // @media screen and (min-width: 769px) and (max-width: 810px) {
-    //     width: 41px;
-    //     height: 41px;
-    // }
     
     &:not(:last-child) {
         margin-right: 10px;
     }
+    
+    
+    // @media screen and  (min-width: 769px)   {
+    //     flex-basis: calc(100% - 4 * var(--margin-gap) / 4);
+    //     width: auto;
+    //     height: auto;
+    // }
 }
 
 .social-media__link {

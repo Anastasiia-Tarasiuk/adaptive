@@ -20,6 +20,7 @@
       
     @media screen and (min-width: 481px) {
         flex-basis: calc((100% - 2 * var(--margin-gap)) / 2);
+        
         &:nth-child(odd) {
             margin-right: var(--margin-gap);      
         }
