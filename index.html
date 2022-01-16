@@ -177,15 +177,18 @@
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="work">
                     <li class="work__item">
-                        <img src="./images/box-first.jpg" class="work__img" alt="Программирование для компьютере">
+                        <img srcset="./images/box-first.jpg 1x, ./images/box-first@2x.jpg 2x" 
+                        src="./images/box-first.jpg" class="work__img" alt="Программирование для компьютере">
                         <p class="work__text">Десктопные приложения</p>
                     </li>
                     <li class="work__item">
-                        <img src="./images/box-second.jpg" class="work__img" alt="Программирование для мобильных устройств">
+                        <img srcset="./images/box-second.jpg 1x, ./images/box-second@2x.jpg 2x"
+                        src="./images/box-second.jpg" class="work__img" alt="Программирование для мобильных устройств">
                         <p class="work__text">Мобильные приложения</p>
                     </li>
                     <li class="work__item">
-                        <img src="./images/box-third.jpg" class="work__img" alt="Дизайнерский подход">
+                        <img srcset="./images/box-third.jpg 1x, ./images/box-third@2x.jpg 2x" 
+                        src="./images/box-third.jpg" class="work__img" alt="Дизайнерский подход">
                         <p class="work__text">Дизайнерские решения</p>
                     </li>
                 </ul>
@@ -198,7 +201,12 @@
                 <ul class="team">
                     <li class="team__item">
                         <div class="member">
-                            <img src="./images/photo-first.jpg" alt="Бородатый мужчина в очках смеётся">
+                            <picture>
+                                <source srcset="./images/photo-first-mobile.jpg 1x, ./images/photo-first-mobile@2x.jpg 2x" media="(max-width: 480px)" />
+                                <source srcset="./images/photo-first-tablet.jpg 1x, ./images/photo-first-tablet@2x.jpg 2x" media="(max-width: 768px)" />
+                                <source srcset="./images/photo-first.jpg 1x, ./images/photo-first@2x.jpg 2x"  />
+                                <img src="./images/photo-first.jpg" alt="Бородатый мужчина в очках смеётся">    
+                            </picture>
                             <div class="member__content">
                                 <h3 class="member__name">Игорь Демьяненко</h3>
                                 <p class="member__text" lang="en">Product Designer</p>
@@ -237,7 +245,14 @@
                     </li>
                     <li class="team__item">
                         <div class="member">
-                            <img src="./images/photo-second.jpg" alt="Женщина блондинка в очках улыбается">
+                            <picture>
+                                <source srcset="./images/photo-second-mobile.jpg 1x, ./images/photo-second-mobile@2x.jpg 2x"
+                                    media="(max-width: 480px)" />
+                                <source srcset="./images/photo-second-tablet.jpg 1x, ./images/photo-second-tablet@2x.jpg 2x"
+                                    media="(max-width: 768px)" />
+                                <source srcset="./images/photo-second.jpg 1x, ./images/photo-second@2x.jpg 2x" />
+                                <img src="./images/photo-second.jpg" alt="Женщина блондинка в очках улыбается">
+                            </picture>
                             <div class="member__content">
                                 <h3 class="member__name">Ольга Репина</h3>
                                 <p class="member__text" lang="en">Frontend Developer</p>
@@ -276,7 +291,14 @@
                     </li>
                     <li class="team__item">
                         <div class="member">
-                            <img src="./images/photo-third.jpg" alt="Небритый мужчина смеётся">
+                            <picture>
+                                <source srcset="./images/photo-third-mobile.jpg 1x, ./images/photo-third-mobile@2x.jpg 2x"
+                                    media="(max-width: 480px)" />
+                                <source srcset="./images/photo-third-tablet.jpg 1x, ./images/photo-third-tablet@2x.jpg 2x"
+                                    media="(max-width: 768px)" />
+                                <source srcset="./images/photo-third.jpg 1x, ./images/photo-third@2x.jpg 2x" />
+                                <img src="./images/photo-third.jpg" alt="Небритый мужчина смеётся">
+                            </picture>
                             <div class="member__content">
                                 <h3 class="member__name">Николай Тарасов</h3>
                                 <p class="member__text" lang="en">Marketing</p>
@@ -315,7 +337,14 @@
                     </li>
                     <li class="team__item">
                         <div class="member">
-                            <img src="./images/photo-forth.jpg" alt="Бородатый мужчина в очках улыбается">
+                            <picture>
+                                <source srcset="./images/photo-forth-mobile.jpg 1x, ./images/photo-forth-mobile@2x.jpg 2x"
+                                    media="(max-width: 480px)" />
+                                <source srcset="./images/photo-forth-tablet.jpg 1x, ./images/photo-forth-tablet@2x.jpg 2x"
+                                    media="(max-width: 768px)" />
+                                <source srcset="./images/photo-forth.jpg 1x, ./images/photo-forth@2x.jpg 2x" />
+                                <img src="./images/photo-forth.jpg" alt="Бородатый мужчина в очках улыбается">
+                            </picture>
                             <div class="member__content">
                                 <h3 class="member__name">Михаил Ермаков</h3>
                                 <p class="member__text" lang="en">UI Designer</p>

@@ -32,6 +32,7 @@
     @media screen and (min-width: 769px) {
         flex-basis: calc((100% - 4 * var(--margin-gap)) / 4); 
         margin-bottom: 0;
+
         &:not(:last-child) {
             margin-right: var(--margin-gap);
         }       
